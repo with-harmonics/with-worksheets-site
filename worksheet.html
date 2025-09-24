@@ -1,0 +1,11 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>プリント詳細 | With学習塾</title><link rel="stylesheet" href="styles.css">
+<script>async function init(){const p=new URLSearchParams(location.search);const id=p.get('id');const list=await (await fetch('data/worksheets.json')).json();const w=list.find(x=>x.id===id);const main=document.getElementById('main');
+if(!w){main.innerHTML='<p>プリントが見つかりません。</p>';return;}document.title=w.title+' | With学習塾プリント';
+main.innerHTML=`<article class='wrap'><h1>${w.title}</h1><p>${w.grade} / ${w.subject} / ${w.unit} / ${w.level}</p>
+<p><img src='${w.thumb}' alt='${w.title}のサムネイル' style='width:100%;max-width:720px;border:1px solid #eee;border-radius:12px;'></p>
+<p><a class='button primary' href='${w.pdf}' target='_blank' rel='noopener'>PDFを印刷</a></p>
+<h2>プリントのポイント</h2><ul><li>A4サイズ、余白10mm、モノクロ印刷推奨</li><li>家庭・学校・学習塾での非営利印刷利用可</li><li>転載・再配布・営利利用はご遠慮ください</li></ul>
+<p style='color:#666;font-size:12px'>${w.license}</p><p><a href='index.html'>一覧へ戻る</a></p></article>`;} document.addEventListener('DOMContentLoaded',init);</script></head>
+<body><header class="site-header"><div class="wrap"><a href="index.html" style="text-decoration:none;color:inherit"><h1>With学習塾プリント</h1></a></div></header>
+<main id="main" class="wrap" style="padding:16px 0 40px"></main><footer class="site-footer"><div class="wrap"><p>&copy; With学習塾 | <a href="legal/terms.html">利用規約</a> | <a href="legal/privacy.html">プライバシー</a></p></div></footer></body></html>
