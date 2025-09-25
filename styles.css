@@ -25,7 +25,14 @@ p{line-height:1.7;color:var(--muted);margin:0 0 var(--space-3)}
 .site-header .bar{display:flex;align-items:center;gap:var(--space-4);padding:var(--space-5) 0}
 .brand{display:flex;align-items:center;gap:var(--space-3)}
 .brand-logo{width:28px;height:28px;border-radius:8px;background:var(--brand)}
-.brand-name{font-weight:700;color:var(--brand)}
+.brand-name{
+  font-family: "Noto Serif JP", serif; /* 好みのフォント */
+  font-size: 28px;     /* ← これが文字サイズ。数字を大きくすると1.5倍, 2倍など調整できます */
+  font-weight: 700;    /* 太字 */
+  color: var(--brand); /* えんじ色 */
+  line-height: 1.2;
+}
+
 .tagline{color:var(--muted);font-size:14px}
 
 /* ====== Controls ====== */
