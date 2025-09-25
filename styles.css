@@ -73,3 +73,8 @@ input::placeholder{color:#999}
   .controls .row{flex-direction:column;align-items:stretch}
   .actions{flex-direction:column}
 }
+.brand-img{
+  height:40px;   /* ロゴの高さ */
+  width:auto;
+  display:block;
+}
