@@ -15,7 +15,7 @@
 
 /* ====== Base ====== */
 html, body {
-  font-family: "M PLUS Rounded 1c", sans-serif; /* 丸ゴシック */
+  font-family: "Shippori Mincho", "Noto Serif JP", serif; /* 明朝体で統一 */
   color: var(--text);
   background: var(--bg);
   margin: 0;
@@ -29,13 +29,17 @@ p{line-height:1.7;color:var(--muted);margin:0 0 var(--space-3)}
 .site-header .bar{display:flex;align-items:center;gap:var(--space-4);padding:var(--space-5) 0}
 .brand{display:flex;align-items:center;gap:var(--space-3)}
 .brand-img{height:60px;width:auto;display:block}
-.brand-name{
-  font-family: "M PLUS Rounded 1c", sans-serif;
+.brand-name {
+  font-family: "Shippori Mincho", "Noto Serif JP", serif;
   font-size: 28px;
   font-weight: 700;
   color: var(--brand);
   line-height: 1.2;
 }
+h1, h2, h3 {
+  font-family: "Shippori Mincho", "Noto Serif JP", serif;
+}
+
 .tagline{color:var(--muted);font-size:14px}
 
 /* ====== Controls ====== */
