@@ -1,17 +1,66 @@
-<header class="site-header">
-  <div class="wrap bar">
-    <div class="brand">
-      <span class="brand-logo" aria-hidden="true"></span>
-      <div>
-        <div class="brand-name">With学習塾プリント</div>
-        <div class="tagline">無料／登録不要／A4そのまま印刷</div>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>With学習塾プリント</title>
+  <!-- スタイルシート -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- フォント（Noto Sans JP） -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ====== ヘッダー ====== -->
+  <header class="site-header">
+    <div class="wrap bar">
+      <div class="brand">
+        <span class="brand-logo" aria-hidden="true"></span>
+        <div>
+          <div class="brand-name">With学習塾プリント</div>
+          <div class="tagline">無料／登録不要／A4そのまま印刷</div>
+        </div>
       </div>
     </div>
-  </div>
-</header>
-<main class="wrap"><section class="controls"><input id="q" type="search" placeholder="キーワード（例：分数、現在形）">
-<select id="grade"><option value=''>学年すべて</option><option>小6</option><option>中1</option><option>中2</option><option>中3</option></select>
-<select id="subject"><option value=''>教科すべて</option><option>算数</option><option>英語</option><option>国語</option><option>理科</option><option>社会</option></select></section>
-<section id="results" class="grid"></section></main>
-<footer class="site-footer"><div class="wrap"><p>&copy; With学習塾 | <a href="legal/terms.html">利用規約</a> | <a href="legal/privacy.html">プライバシー</a></p></div></footer>
-</body></html>
+  </header>
+
+  <!-- ====== 検索フォーム ====== -->
+  <section class="controls">
+    <div class="wrap row">
+      <input id="q" type="search" placeholder="キーワード（例：分数、現在形、オームの法則）" aria-label="キーワード検索">
+      <select id="grade" aria-label="学年で絞り込み">
+        <option value="">学年すべて</option>
+        <option>小6</option>
+        <option>中1</option>
+        <option>中2</option>
+        <option>中3</option>
+      </select>
+      <select id="subject" aria-label="教科で絞り込み">
+        <option value="">教科すべて</option>
+        <option>算数</option>
+        <option>英語</option>
+        <option>国語</option>
+        <option>理科</option>
+        <option>社会</option>
+      </select>
+    </div>
+  </section>
+
+  <!-- ====== 一覧表示エリア ====== -->
+  <main class="wrap">
+    <div id="results" class="grid"></div>
+  </main>
+
+  <!-- ====== フッター ====== -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2025 With学習塾 / 株式会社With Harmonics</p>
+      <p><a href="https://www.withgakushujuku.com/" target="_blank" rel="noopener">公式HPはこちら</a></p>
+    </div>
+  </footer>
+
+  <!-- ====== スクリプト ====== -->
+  <script src="main.js"></script>
+</body>
+</html>
