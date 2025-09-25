@@ -1,0 +1,62 @@
+[
+  {
+    "id": "g6_math_fractions_01",
+    "title": "小6 算数｜分数の計算 01",
+    "grade": "小6",
+    "subject": "算数",
+    "unit": "分数の計算",
+    "level": "基礎",
+    "tags": [
+      "小学生",
+      "算数",
+      "分数",
+      "計算",
+      "A4"
+    ],
+    "pdf": "prints/g6_math_fractions_01.pdf",
+    "thumb": "assets/g6_math_fractions_01.svg",
+    "pages": 1,
+    "updated": "2025-09-24",
+    "license": "© With学習塾 / 個人・教育機関の非営利利用可（再配布不可）"
+  },
+  {
+    "id": "g7_english_present_simple_01",
+    "title": "中1 英語｜現在形 01",
+    "grade": "中1",
+    "subject": "英語",
+    "unit": "現在形",
+    "level": "基礎",
+    "tags": [
+      "中学生",
+      "英語",
+      "文法",
+      "現在形",
+      "A4"
+    ],
+    "pdf": "prints/g7_english_present_simple_01.pdf",
+    "thumb": "assets/g7_english_present_simple_01.svg",
+    "pages": 1,
+    "updated": "2025-09-24",
+    "license": "© With学習塾 / 個人・教育機関の非営利利用可（再配布不可）"
+  },
+  {
+    "id": "g9_science_ohm_law_01",
+    "title": "中3 理科｜オームの法則 01",
+    "grade": "中3",
+    "subject": "理科",
+    "unit": "電流・電圧・抵抗",
+    "level": "基礎",
+    "tags": [
+      "中学生",
+      "理科",
+      "電気",
+      "オームの法則",
+      "A4"
+    ],
+    "pdf": "prints/g9_science_ohm_law_01.pdf",
+    "thumb": "assets/g9_science_ohm_law_01.svg",
+    "pages": 1,
+    "updated": "2025-09-24",
+    "license": "© With学習塾 / 個人・教育機関の非営利利用可（再配布不可）"
+  }
+]
