@@ -21,7 +21,11 @@ html, body {
   margin: 0;
 }
 .wrap{max-width:1024px;margin:0 auto;padding:0 var(--space-4)}
-h1,h2,h3{line-height:1.3;margin:0 0 var(--space-3)}
+h1,h2,h3{
+  line-height:1.3;
+  margin:0 0 var(--space-3);
+  font-family: "Shippori Mincho", "Noto Serif JP", serif;
+}
 p{line-height:1.7;color:var(--muted);margin:0 0 var(--space-3)}
 
 /* ====== Header ====== */
@@ -29,17 +33,13 @@ p{line-height:1.7;color:var(--muted);margin:0 0 var(--space-3)}
 .site-header .bar{display:flex;align-items:center;gap:var(--space-4);padding:var(--space-5) 0}
 .brand{display:flex;align-items:center;gap:var(--space-3)}
 .brand-img{height:60px;width:auto;display:block}
-.brand-name {
+.brand-name{
   font-family: "Shippori Mincho", "Noto Serif JP", serif;
   font-size: 28px;
   font-weight: 700;
   color: var(--brand);
   line-height: 1.2;
 }
-h1, h2, h3 {
-  font-family: "Shippori Mincho", "Noto Serif JP", serif;
-}
-
 .tagline{color:var(--muted);font-size:14px}
 
 /* ====== Controls ====== */
@@ -48,7 +48,7 @@ h1, h2, h3 {
 input[type=search], select{
   flex:1;min-height:42px;padding:0 var(--space-3);
   border:1px solid var(--line);border-radius:10px;background:#ffffff;color:var(--text);
-  font-family:"M PLUS Rounded 1c", sans-serif;
+  font-family:"Shippori Mincho", "Noto Serif JP", serif;
 }
 input::placeholder{color:#999}
 
@@ -61,17 +61,33 @@ input::placeholder{color:#999}
 .card:hover{transform:translateY(-3px)}
 .card img{width:100%;height:168px;object-fit:cover;background:var(--bg-soft)}
 .card .meta{padding:var(--space-4) var(--space-4) var(--space-3)}
-.card .title{font-size:16px;font-weight:600;margin:0 0 var(--space-2);color:var(--brand)}
+.card .title{
+  font-size:16px;
+  font-weight:600;
+  margin:0 0 var(--space-2);
+  color:var(--brand);
+  font-family:"Shippori Mincho", "Noto Serif JP", serif;
+}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
 .chip{
-  font-size:12px;color:var(--muted);padding:4px 10px;border-radius:999px;
-  background:var(--bg-soft);border:1px solid var(--line)
+  font-size:12px;
+  color:var(--muted);
+  padding:4px 10px;
+  border-radius:999px;
+  background:var(--bg-soft);
+  border:1px solid var(--line);
+  font-family:"Shippori Mincho", "Noto Serif JP", serif;
 }
 .actions{display:flex;gap:var(--space-3);padding:0 var(--space-4) var(--space-4)}
 .button{
-  flex:1;text-align:center;text-decoration:none;padding:12px 14px;border-radius:10px;
-  border:1px solid var(--brand);transition:background .2s,color .2s;
-  font-family:"M PLUS Rounded 1c", sans-serif;
+  flex:1;
+  text-align:center;
+  text-decoration:none;
+  padding:12px 14px;
+  border-radius:10px;
+  border:1px solid var(--brand);
+  transition:background .2s,color .2s;
+  font-family:"Shippori Mincho", "Noto Serif JP", serif;
 }
 .button.primary{background:var(--brand);color:#fff}
 .button.primary:hover{background:#600000}
@@ -80,7 +96,15 @@ input::placeholder{color:#999}
 .button:focus{outline:3px solid var(--brand-weak);outline-offset:2px}
 
 /* ====== Footer ====== */
-.site-footer{border-top:1px solid var(--line);padding:var(--space-6) 0;color:var(--muted);background:#ffffff;font-size:14px;text-align:center}
+.site-footer{
+  border-top:1px solid var(--line);
+  padding:var(--space-6) 0;
+  color:var(--muted);
+  background:#ffffff;
+  font-size:14px;
+  text-align:center;
+  font-family:"Shippori Mincho", "Noto Serif JP", serif;
+}
 .site-footer a{color:var(--brand);text-decoration:none;margin:0 6px}
 .site-footer a:hover{text-decoration:underline}
 
